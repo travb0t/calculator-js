@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="calculatorBody">
+
+        <div id="calcUpper">
+            <div id="expressionDisplay">
+                <input
+                    type="text"                  
+                    id="expressionInput"
+                    name="expIn"
+                    value=""
+                    size="10"
+                    readonly
+                />
+            </div>
+            <div id="resultDisplay"></div>
+            <input
+                    type="text"                  
+                    id="resultOutput"
+                    name="expOut"
+                    value=""
+                    size="10"
+                    readonly
+                />
+            <!-- <div id="toolBar">
+                <div><button></button></div>
+                <div><button></button></div>
+            </div> -->
+        </div>
+
+        <div id="calcLower">
+            <div id="inputBoard"></div>
+        </div>
+
+    </div>
+
+    <script type="module" src="calculator.js"></script>
+
+</body>
+
+</html>

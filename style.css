@@ -1,0 +1,90 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputBoard {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonColumn {
+    display: flex;
+}
+
+#calculatorBody {
+    min-width: 40%;
+    min-height: 60%;
+    background-color: gainsboro;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#calcUpper {
+    display: flex;
+    min-height: 35%;
+    min-width: 100%;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+#calcLower {
+    display: flex;
+    min-height: 65%;
+    min-width: 100%;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#expressionDisplay {
+    min-height: 45%;
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+#expressionInput {
+    background: transparent;
+    font-size: 50px;
+    border: none;
+    color: black;
+}
+
+#resultDisplay{
+    min-height: 30%;
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+#resultOutput {
+    background: transparent;
+    font-size: 25px;
+    border: none;
+    color: black;
+}
+
+/* #toolBar{
+    display:flex;
+    flex-direction: row;
+    min-height: 20%;
+    min-width: 100%;
+    border: 1px solid black;
+    background-color: gainsboro;
+} */
+
+.buttonKeys {
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+    background: none;
+    align-items: center;
+    justify-content: center;
+}
